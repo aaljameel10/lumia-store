@@ -1,0 +1,18 @@
+lumia-store/
+ ├─ public/
+ │   ├─ favicon.svg
+ │   └─ lumia-logo.png   ← ضع هنا شعار LUMIA
+ ├─ src/
+ │   ├─ App.tsx
+ │   ├─ main.tsx
+ │   ├─ index.css
+ │   └─ setupTests.ts
+ ├─ index.html
+ ├─ package.json
+ ├─ tsconfig.json
+ ├─ vite.config.ts
+ ├─ tailwind.config.js
+ ├─ postcss.config.js
+ ├─ README.md
+ ├─ LICENSE
+ └─ .github/workflows/deploy.yml

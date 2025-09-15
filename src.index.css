@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand:#B28A4C;
+  --brand-2:#D4B679;
+  --accent:#F8F5F0;
+  --bg:#FFFEFC;
+  --text:#111111;
+  --muted:#6b6b6b;
+  --card:#ffffff;
+  --border:#eee;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, "Noto Kufi Arabic", "Tajawal", Arial, sans-serif;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg,var(--brand),var(--brand-2));
+  color: #fff;
+}
